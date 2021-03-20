@@ -10,7 +10,11 @@ This web map primarily shows the density of libraries for each elementar school 
 
 ## Project Goal
 
-The main purpose of this web map is to display local community resources in relation to each attendance boundary zone. 
+The main purpose of this web map is to display local community resources in relation to each attendance boundary zone. By viewing this map, the hope is that viewers will get a better sence of where in their community these resources are located, and help Seattle residents understand where other resources are beyond their immediate community. Additionally, this map could assist young families who are deciding where in the city they'd like to live. Understanding the size of each school district, the amount of parks in their neighborhood, and where libraries and community centers are located could be important to them.
+
+# Extensions
+
+This project began with the intention of understanding how each attendance boundary zone has performed on standardized tests such as the SBA. However, data was not easy to find regarding the performance of each zone, or was not readily accessible to the public. In the future, it would be interesting to visualize this to get a better understanding of each school district.
 
 ## Data Resources
 
@@ -22,13 +26,12 @@ Seattle Park Boundaries: [Seattle Parks and Recreation Open Data](https://data.s
 
 Seattle Public Schools Elementary Attendance Boundaries: [Seattle Public Schools GIS Data](https://www.seattleschools.org/departments/enrollment_planning/enrollment_data/maps)
 
-
-
 ## Applied Libraries
 
 - Awesome Font
 - Leaflet.js
-- CSS
+- Carto for basemaps
+- GitHub pages for project hosting
 
 ## Acknowledgment
 
