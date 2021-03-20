@@ -1,7 +1,13 @@
 // 1. Create a map object.
+
+var southWest = L.latLng(47.02794637495586, -123.22803182976699)
+var northEast = L.latLng(48.04321598998574, -121.36398741251594)
+var bounds = L.latLngBounds(southWest, northEast);
+
 var mymap = L.map('map', {
     center: [47.60472496694009, -122.33472463103593],
     zoom: 12,
+    maxBounds: bounds,
     maxZoom: 15,
     minZoom: 11,
     detectRetina: true // detect whether the sceen is high resolution or not.
@@ -83,13 +89,13 @@ elementarySchoolBoundaries = L.geoJson.ajax("data/sps_ES_boundaries_2020_2021.ge
 
 var washingtonLibraryLocations = null;
 
-washingtonLibraryLocations = L.geoJson.ajax("data/Washington_Library_Locations.geojson");
+//washingtonLibraryLocations = L.geoJson.ajax("data/Washington_Library_Locations_Cleaned.geojson");
 
 //washingtonLibraryLocations.addTo(mymap);
 
 // append icon
 
-washingtonLibraryLocations = L.geoJson.ajax("data/Washington_Library_Locations.geojson", {
+washingtonLibraryLocations = L.geoJson.ajax("data/Washington_Library_Locations_Cleaned.geojson", {
     onEachFeature: function (feature, layer) {
         layer.bindPopup('<p><b>Library</b>: ' + feature.properties.Library + "</p>");
         //return feature.properties.name;
