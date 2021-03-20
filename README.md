@@ -6,9 +6,11 @@ Click [here](https://tmroach.github.io/library-distribution-seattle-school-distr
 
 ## About
 
-
+This web map primarily shows the density of libraries for each elementar school district within the Seattle public school system. Additionally, the locations of both libraries and local community centers are plotted on the map. Users may also select to view the 'Seattle Parks' layer, which shows how city parks are distributed throughout the school districts.
 
 ## Project Goal
+
+The main purpose of this web map is to display local community resources in relation to each attendance boundary zone. 
 
 ## Data Resources
 

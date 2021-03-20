@@ -102,7 +102,7 @@ for (i = 0; i < 13; i++) {
 
 function setColor(density) {
     var id = 0;
-    if (density > 11) { id = 4; }
+    if (density > 10) { id = 4; }
     else if (density > 5 && density <= 10) { id = 3; }
     else if (density > 3 && density <= 5) { id = 2; }
     else if (density > 0 &&  density <= 2) { id = 1; }
@@ -144,11 +144,11 @@ legend.onAdd = function () {
 
     // Create Div Element and Populate it with HTML
     var div = L.DomUtil.create('div', 'legend');
-    div.innerHTML += '<b># Airports per US State</b><br />';
-    div.innerHTML += '<i style="background: ' + colors[4] + '; opacity: 0.5"></i><p> 150+ </p>';
-    div.innerHTML += '<i style="background: ' + colors[3] + '; opacity: 0.5"></i><p> 40-99 </p>';
-    div.innerHTML += '<i style="background: ' + colors[2] + '; opacity: 0.5"></i><p> 11-39 </p>';
-    div.innerHTML += '<i style="background: ' + colors[1] + '; opacity: 0.5"></i><p> 1-10 </p>';
+    div.innerHTML += '<b># Libraries Per Attendance Boundary</b><br />';
+    div.innerHTML += '<i style="background: ' + colors[4] + '; opacity: 0.5"></i><p> 11+ </p>';
+    div.innerHTML += '<i style="background: ' + colors[3] + '; opacity: 0.5"></i><p> 6-10 </p>';
+    div.innerHTML += '<i style="background: ' + colors[2] + '; opacity: 0.5"></i><p> 4-5 </p>';
+    div.innerHTML += '<i style="background: ' + colors[1] + '; opacity: 0.5"></i><p> 1-2 </p>';
     div.innerHTML += '<i style="background: ' + colors[0] + '; opacity: 0.5"></i><p> 0 </p>';
     div.innerHTML += '<hr><b>Community Resource<b><br />';
     div.innerHTML += '<i class="fas fa-book"></i><p> Library </p>';
