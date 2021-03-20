@@ -19,6 +19,7 @@ This project began with the intention of understanding how each attendance bound
 ## Data Resources
 
 Washington Library Locations: [Washington Geospatial Open Data](https://geo.wa.gov/datasets/washington-library-locations?geometry=-127.779%2C45.964%2C-113.903%2C48.572&showData=true)
+`Note: some values were removed from the dataset so that only libraries that were within the Seattle city limits were shown.`
 
 Community Center Locations: [Seattle Parks and Recreation Open Data](https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Shapefi/q59g-r5pd)
 
